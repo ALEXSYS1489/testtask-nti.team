@@ -1,0 +1,17 @@
+.catalog__quantity {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #838383;
+    margin: 186px 0 0 40px;
+}
+
+@media (max-width: 1880px) {
+    .catalog__quantity {
+        font-size: 15px;
+        line-height: 133.69%;
+        margin: 171px 0 0 20px;
+    }
+  }

@@ -1,0 +1,118 @@
+.catalog__element {
+    border-radius: 20px;
+    width: 440px;
+    height: 371px;
+    position: relative;
+    background-color: #F9F9F9;
+}
+
+.catalog__element:first-of-type {
+    background-color: #FFF;
+}
+
+.catalog__element:nth-of-type(2n) {
+    background-color: #F2F2F2;
+}
+
+.catalog__element:nth-of-type(2) + .catalog__element .catalog__image {
+    top: -21px;
+    right: 58px;
+}
+
+.catalog__element:nth-of-type(3)+ .catalog__element .catalog__image {
+    top: 81px;
+    right: 52px;
+}
+
+.catalog__element:nth-of-type(4)+.catalog__element .catalog__image {
+    top: 59px;
+    right: 76px;
+}
+
+.catalog__element:nth-of-type(5)+.catalog__element .catalog__image {
+    top: 38px;
+    right: 30px;
+}
+
+.catalog__element:nth-of-type(3)+ .catalog__element .catalog__shadow {
+    top: 85px;
+    right: 27px;
+}
+
+.catalog__element:nth-of-type(4)+ .catalog__element .catalog__shadow {
+    top: 180px;
+    right: 60px;
+}
+
+@media (max-width: 1880px) {
+    .catalog__element {
+        border-radius: 10px;
+        width: 345px;
+        height: 291px;
+        background-color: #eee;
+    }
+    
+    .catalog__element:first-of-type {
+        background-color: #FFF;
+        height: 211px;
+        margin: 0 0 20px;
+    }
+    
+    .catalog__element:nth-of-type(1) + .catalog__element .catalog__image {
+        top: 13.5px;
+        right: 21px;
+        width: 302px;
+        height: 178px;
+    }
+
+    .catalog__element:nth-of-type(2) + .catalog__element .catalog__image {
+        top: 11px;
+        right: 35px;
+        width: 210px;
+        height: 193px;
+    }
+    
+    .catalog__element:nth-of-type(3)+ .catalog__element .catalog__image {
+        top: 63.5px;
+        right: 40.5px;
+        width: 264px;
+        height: 107px;
+    }
+    
+    .catalog__element:nth-of-type(4)+.catalog__element .catalog__image {
+        top: 46px;
+        right: 59.5px;
+        width: 226.5px;
+        height: 124.5px;
+    }
+    
+    .catalog__element:nth-of-type(5)+.catalog__element .catalog__image {
+        top: 30px;
+        right: 23.5px;
+        width: 253px;
+        height: 167px;  
+    }
+    
+    .catalog__element:nth-of-type(2)+ .catalog__element .catalog__shadow {
+        top: 130px;
+        right: 34px;
+        width: 250px;
+        height: 80px;
+    }
+
+    .catalog__element:nth-of-type(3)+ .catalog__element .catalog__shadow {
+        height: 102px;
+        top: 50px;
+        right: 17px;
+        width: 300px;
+        height: 150px;
+    }
+    
+    .catalog__element:nth-of-type(4)+ .catalog__element .catalog__shadow {
+        top: 112px;
+        right: 42px;
+        width: 254px;
+        height: 100px;
+    }
+
+  }

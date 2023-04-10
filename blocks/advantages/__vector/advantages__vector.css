@@ -1,0 +1,15 @@
+.advantages__vector {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+@media (max-width: 1880px) {
+    .advantages__vector {
+        position: absolute;
+        top: 1px;
+        right: 0;
+        width: 121px;
+        height: 64px;
+    }
+  }

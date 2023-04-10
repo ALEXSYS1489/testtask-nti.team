@@ -1,0 +1,20 @@
+.header__link {
+    margin: 0 45px 0 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #292D32;
+}
+
+@media (max-width: 1880px) {
+    .header__link {
+        text-align: left;
+        display: block;
+        margin: 45px 0 0 38px;
+    }
+  }
+  

@@ -1,0 +1,14 @@
+.first__background-text {
+    position: absolute;
+    left: 260px;
+    top: 97.4px;
+}
+
+@media (max-width: 1880px) {
+    .first__background-text {
+        left: 32px;
+        top: 18px;
+        width: 293px;
+        height: 77px;
+    }
+  }

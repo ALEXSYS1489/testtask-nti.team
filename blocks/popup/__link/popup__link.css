@@ -1,0 +1,13 @@
+.popup__link {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin: 0 0 20px;
+    padding: 20px 0 0 30px;
+    border-top: 1px solid #F2F2F2;;
+    display: block;
+    text-align: left;
+}

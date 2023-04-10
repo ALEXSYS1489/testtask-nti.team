@@ -1,0 +1,10 @@
+.news__title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1880px) {
+    .news__title-container {
+        flex-direction:column;
+    }
+  } 

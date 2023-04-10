@@ -1,0 +1,14 @@
+.footer {
+  margin: 60px auto 0;
+  max-width: 1920px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 1880px) {
+  .footer {
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    width: 375px;
+  }
+} 

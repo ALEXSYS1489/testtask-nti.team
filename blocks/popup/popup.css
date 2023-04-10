@@ -1,0 +1,10 @@
+.popup {
+    position: absolute;
+    width: 405px;
+    height: 400px;
+    filter: drop-shadow(0px 14px 75px rgba(0, 0, 0, 0.13)) drop-shadow(0px 1.75302px 9.39116px rgba(0, 0, 0, 0.065));
+    z-index: 2;
+    top: 75px;
+    left: -175px;
+    display: none;
+}

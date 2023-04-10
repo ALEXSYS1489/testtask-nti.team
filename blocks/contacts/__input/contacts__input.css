@@ -1,0 +1,51 @@
+.contacts__input {
+    margin: -12.75px 0 0 0;
+    border: 1.5px solid rgba(242, 242, 242, 0.5);
+    border-radius: 20px;
+    width: 424px;
+    height: 59px;
+    background-color: #292D32;
+    display: block;
+    color: #fff;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0 0 0 10px ;
+}
+
+.contacts__input:last-of-type {
+    height: 135px;
+    margin: -12.75px 0 57px;
+    padding: 10px 0 0 10px ;
+}
+
+.contacts__input:nth-of-type(2) {
+    height: 59px;
+    margin: -12.75px 0 0 0;
+    padding: 0 0 0 10px ;
+}
+
+@media (max-width: 1880px) {
+    .contacts__input {
+        margin: -10px 0 0 0;
+        border: 1px solid #8E9092;
+        border-radius: 10px;
+        width: 303px;
+        height: 40px;
+        padding: 0 0 0 10px ;
+    }
+    
+    .contacts__input:last-of-type {
+        height: 70px;
+        margin: -10px 0 30px;
+        padding: 10px 0 0 10px ;
+    }
+    
+    .contacts__input:nth-of-type(2) {
+        height: 40px;
+        margin: -10px 0 0 0;
+        padding: 0 0 0 10px ;
+    }
+  } 

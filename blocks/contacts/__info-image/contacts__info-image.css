@@ -1,0 +1,13 @@
+.contacts__info-image {
+    width: 36px;
+    height: 36px;
+    margin: 0 18px 0 0;
+}
+
+@media (max-width: 1880px) {
+    .contacts__info-image {
+        width: 18px;
+        height: 18px;
+        margin: 0 8px 0 0;
+    }
+  } 

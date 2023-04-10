@@ -1,0 +1,22 @@
+.contacts__form {
+    background-color: #292D32;
+    border-radius: 0px 20px 20px 0px;
+    width: 571px;
+    height: 842px;
+    margin: -346px 0 0;
+    position: relative;
+    z-index: 1;
+    padding: 0 0 0 129px;
+}
+
+@media (max-width: 1880px) {
+    .contacts__form {
+        border-radius: 0px;
+        width: 345px;
+        height: 558px;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        padding: 0 0 0 30px;
+    }
+  } 

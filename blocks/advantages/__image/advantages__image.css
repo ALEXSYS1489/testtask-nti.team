@@ -1,0 +1,17 @@
+.advantages__image {
+    position: absolute;
+    height: 492px;
+    width: 874px;
+    top: 87px;
+    left: 180px;
+}
+
+@media (max-width: 1880px) {
+    .advantages__image {
+        position: absolute;
+        width: 345px;
+        height: 194px;
+        top: 283px;
+        left: 76px;
+    }
+  }

@@ -1,0 +1,17 @@
+.first__arrow {
+    margin: 80px 0 0 40px;
+    height: 21px;
+    width: 104.5px;
+}
+
+@media (max-width: 1880px) {
+    .first__arrow {
+        margin: 0;
+        height: 14px;
+        width: 64px;
+        position: absolute;
+        top: -34px;
+        right: 15px;
+        z-index: 1;
+    }
+  }

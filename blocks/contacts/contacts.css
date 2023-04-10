@@ -1,0 +1,19 @@
+.contacts {
+    max-width: 1920px;
+    background-color: #eee;
+    margin: 526px auto 0;
+    height: 676px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+@media (max-width: 1880px) {
+    .contacts {
+        max-width: 375px;
+        background-color: #fff;
+        margin: 120px auto 0;
+        flex-direction: column;
+        height: auto;
+    }
+  } 

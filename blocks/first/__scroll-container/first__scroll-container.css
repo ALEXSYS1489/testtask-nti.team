@@ -1,0 +1,13 @@
+.first__scroll-container {
+    display: flex;
+    flex-direction: column;
+    padding: 357px 0 0 260px;
+    height: 170px;
+    width: 130px;
+}
+
+@media (max-width: 1880px) {
+    .first__scroll-container {
+        display: none;
+    }
+  }

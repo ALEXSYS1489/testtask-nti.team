@@ -1,0 +1,16 @@
+.first {
+    background-color: #F2F2F2;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    height: 683px;
+    display: flex;
+}
+
+@media (max-width: 1880px) {
+    .first {
+        max-width: 375px;
+        height: auto;
+        flex-direction: column;
+    }
+  }

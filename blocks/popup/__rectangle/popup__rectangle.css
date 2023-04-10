@@ -1,0 +1,8 @@
+.popup__rectangle {
+    background: #FFFFFF;
+    border-radius: 2px;
+    transform: matrix(0.73, 0.68, -0.73, 0.68, 0, 0);
+    width: 18px;
+    height: 18px;
+    margin: 4px 0 0 192px;
+}

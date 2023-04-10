@@ -1,0 +1,15 @@
+.first__image {
+    margin: 74px 60px 0 8px;
+    width: 557px;
+    height: 555px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1880px) {
+    .first__image {
+        margin: 10px 0 0 23px;
+        width: 327px;
+        height: 325px;
+    }
+  }

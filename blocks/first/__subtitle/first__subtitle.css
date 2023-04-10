@@ -1,0 +1,18 @@
+.first__subtitle {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #838383;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1880px) {
+    .first__subtitle {
+        font-size: 15px;
+        line-height: 133.69%;
+    }
+  }

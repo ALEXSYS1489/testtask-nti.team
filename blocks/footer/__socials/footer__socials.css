@@ -1,0 +1,10 @@
+.footer__socials {
+    display: flex;
+    margin: 8px 0 0 135px;
+}
+
+@media (max-width: 1880px) {
+    .footer__socials {
+        margin: 30px 0 30px 16px;
+    }
+  } 

@@ -1,0 +1,14 @@
+.news__vector {
+    position: absolute;
+    right: 38px;
+    bottom: 86px;
+}
+
+@media (max-width: 1880px) {
+    .news__vector {
+        right: 31px;
+        bottom: 96px;
+        width: 77px;
+        height: 29px;
+    }
+  } 

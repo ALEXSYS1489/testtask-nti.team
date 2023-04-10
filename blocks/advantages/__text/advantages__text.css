@@ -1,0 +1,18 @@
+.advantages__text {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #838383;
+    margin: 0 0 41px;
+    width: 485px;
+}
+
+@media (max-width: 1880px) {
+    .advantages__text {
+        font-size: 15px;
+        margin: 0 0 30px;
+        width: 336px;
+    }
+  }

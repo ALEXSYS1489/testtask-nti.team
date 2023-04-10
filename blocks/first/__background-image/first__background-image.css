@@ -1,0 +1,20 @@
+.first__background-image {
+    position: absolute;
+    width: 509px;
+    height: 480px;
+    right: 0;
+    top: 0;
+    background-image: url(../../../images/first2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1880px) {
+    .first__background-image {
+        width: 252px;
+        height: 166px;
+        background-image: url(../../../images/first2small.png);
+        right: 5px;
+        top: 15px;
+    }
+  }

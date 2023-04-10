@@ -1,0 +1,16 @@
+.header__search {
+    margin: 52px 0 0;
+    border: none;
+    background-color: #fff;
+    padding: 0;
+    background-image: url(../../../images/clarity_shopping-bag-line.svg);
+    width: 20px;
+    height: 20px;
+
+}
+
+@media (max-width: 1880px) {
+    .header__search {
+        margin: 36px 0 0 67px;
+    }
+  }

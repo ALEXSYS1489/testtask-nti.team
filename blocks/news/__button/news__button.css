@@ -1,0 +1,25 @@
+.news__button {
+    position: absolute;
+    right: 54px;
+    bottom: 74px;
+    border: 10px solid #FFFFFF;
+    height: 60px;
+    width: 60px;
+    background-color: #292D32;
+    background-image: url(../../../images/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media (max-width: 1880px) {
+    .news__button {
+        right: 44px;
+        bottom: 83px;
+        height: 52px;
+        width: 52px;
+    }
+  } 

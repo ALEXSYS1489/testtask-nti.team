@@ -1,0 +1,11 @@
+.contacts__title_dark {
+    margin: 100px 0 0;
+    color: #FFF;
+}
+
+@media (max-width: 1880px) {
+    .contacts__title_dark {
+        margin: 60px 0 0;
+    }
+    
+  } 

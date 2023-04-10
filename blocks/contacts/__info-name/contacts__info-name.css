@@ -1,0 +1,17 @@
+.contacts__info-name {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #838383;
+    margin: 5px 0 0;
+}
+
+@media (max-width: 1880px) {
+    .contacts__info-name {
+        font-size: 15px;
+        line-height: 133.69%;
+        margin: 0;
+    }
+  } 

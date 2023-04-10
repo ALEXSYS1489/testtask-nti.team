@@ -1,0 +1,9 @@
+.popup__image {
+    width: 49px;
+    height: 49px;
+    background-color: #F9F9F9;
+    background-image: url(../../../images/lk.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}

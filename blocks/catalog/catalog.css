@@ -1,0 +1,16 @@
+.catalog {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr); 
+    max-width: 1400px;
+    margin: 164px auto 0;
+}
+
+@media (max-width: 1880px) {
+    .catalog {
+        gap: 20px;
+        grid-template-columns: 1fr ; 
+        max-width: 345px;
+        margin: 120px auto 0;
+    }
+  }

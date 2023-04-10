@@ -1,0 +1,15 @@
+.contacts__image {
+    position: absolute;
+    top: 142px;
+    right: -87px;
+}
+
+@media (max-width: 1880px) {
+    .contacts__image {
+        top: 419px;
+        right: 45px;
+        transform: rotate(13.83deg);
+        width: 36%;
+        height: 41%;
+    }
+  } 

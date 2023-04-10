@@ -1,0 +1,17 @@
+.news__title {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    color: #292D32;
+    margin: 0 0 25px;
+}
+
+@media (max-width: 1880px) {
+    .news__title {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0 0 20px;
+    }
+  } 

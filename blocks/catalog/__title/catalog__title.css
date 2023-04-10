@@ -1,0 +1,19 @@
+.catalog__title {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #292D32;
+    margin: 0 0 29px;
+    width: 388px;
+}
+
+@media (max-width: 1880px) {
+    .catalog__title {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0 0 20px;
+        width: 249px;
+    }
+  }

@@ -1,0 +1,19 @@
+.news__element-subtitle {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #292D32;
+    margin: 11px 0 0 30px;
+    position: relative;
+    z-index: 1;
+    width: 365px;
+}
+
+@media (max-width: 1880px) {
+    .news__element-subtitle {
+        margin: 10px 0 0 20px;
+        width: 251px;
+    }
+  } 

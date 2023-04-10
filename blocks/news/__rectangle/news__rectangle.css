@@ -1,0 +1,18 @@
+.news__rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 416px;
+    height: 146px;
+    background-image: url(../../../images/Rectangle\ 105.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1880px) {
+    .news__rectangle {
+        width: 324px;
+        height: 142px;
+        background-image: url(../../../images/Rectangle\ 375.svg);
+    }
+  } 

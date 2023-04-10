@@ -1,0 +1,31 @@
+.footer__background-text {
+    position: absolute;
+    right: -36px;
+    top: 73px;
+    margin: 0;
+    font-family: 'Rubik One', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 187px;
+    line-height: 92.69%;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F2F2F2 0%, rgba(242, 242, 242, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.7;
+}
+
+@media (max-width: 1880px) {
+    .footer__background-text {
+        right: 16px;
+        top: 666px;
+        font-size: 78px;
+        line-height: 92.69%;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        opacity: 0.7;
+    }
+  } 

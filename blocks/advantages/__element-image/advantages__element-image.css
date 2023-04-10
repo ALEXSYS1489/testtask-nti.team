@@ -1,0 +1,13 @@
+.advantages__element-image {
+    margin: 17px 0 0 17px;
+    width: 36px;
+    height: 36px;
+}
+
+@media (max-width: 1880px) {
+    .advantages__element-image {
+        margin: 10px 0 0 10px;
+        width: 30px;
+        height: 30px;
+    }
+  }

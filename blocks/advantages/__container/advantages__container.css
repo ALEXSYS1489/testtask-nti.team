@@ -1,0 +1,9 @@
+.advantages__container {
+    margin: 183px 0 0 975px;
+}
+
+@media (max-width: 1880px) {
+    .advantages__container {
+        margin: 101px 0 0 15px;
+        }
+  }

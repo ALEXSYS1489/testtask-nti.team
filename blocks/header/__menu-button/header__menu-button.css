@@ -1,0 +1,52 @@
+.header__menu-button {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: #F9F9F9;
+    border: none;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu-button:nth-of-type(1) {
+background-image: url(../../../images/lk.svg);
+}
+
+.header__menu-button:nth-of-type(2) {
+    background-image: url(../../../images/stats.svg);
+}
+
+.header__menu-button:nth-of-type(3) {
+    background-image: url(../../../images/heart.png);
+}
+
+.header__menu-button:nth-of-type(4) {
+    background-image: url(../../../images/basket.svg);
+}
+
+.header__menu-button:nth-of-type(5) {
+    display: none;
+}   
+
+@media (max-width: 1880px) {
+    .header__menu-button {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+    }
+    
+    .header__menu-button:nth-of-type(2) {
+        display: none;
+    }
+    
+    .header__menu-button:nth-of-type(3) {
+        display: none;
+    }
+    
+    .header__menu-button:nth-of-type(5) {
+        display: block;
+    }   
+  }

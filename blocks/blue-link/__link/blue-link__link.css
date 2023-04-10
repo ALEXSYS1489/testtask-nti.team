@@ -1,0 +1,16 @@
+.blue-link__link {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #292D32;
+    margin: 14px 17px 0 12px;
+}
+
+@media (max-width: 1880px) {
+    .blue-link__link {
+        font-size: 15px;
+        margin: 9px 0 0 15px;
+    }
+  }

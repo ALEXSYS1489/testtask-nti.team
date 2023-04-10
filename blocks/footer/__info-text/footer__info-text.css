@@ -1,0 +1,16 @@
+.footer__info-text {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #292D32;
+    margin: 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 1880px) {
+    .footer__info-text {
+        font-size: 15px;
+    }
+  } 

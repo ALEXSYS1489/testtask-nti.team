@@ -1,0 +1,11 @@
+.news {
+    max-width: 1400px;
+    margin: 172px auto 0;
+}
+
+@media (max-width: 1880px) {
+    .news {
+        max-width: 345px;
+        margin: 120px auto 0;
+    }
+  } 

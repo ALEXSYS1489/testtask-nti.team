@@ -1,0 +1,13 @@
+.first__point_active {
+    background-color: #292D32;
+    width: 9px;
+    height: 9px;
+}
+
+@media (max-width: 1880px) {
+    .first__point_active {
+        background-color: #292D32;
+        width: 5px;
+        height: 5px;
+    }
+  }

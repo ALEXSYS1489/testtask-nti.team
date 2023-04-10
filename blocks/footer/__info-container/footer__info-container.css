@@ -1,0 +1,25 @@
+.footer__info-container {
+    margin: 0 153px 40px 0;
+    }
+
+.footer__info-container:nth-of-type(2) {
+    margin: 0 171px 40px 0;
+    }
+
+.footer__info-container:nth-of-type(3) {
+    margin: 0;
+    }
+
+    @media (max-width: 1880px) {
+        .footer__info-container {
+            margin: 20px 0 0 16px
+            }
+        
+        .footer__info-container:nth-of-type(2) {
+            margin: 20px 0 0 16px
+            }
+        
+        .footer__info-container:nth-of-type(3) {
+            margin: 20px 0 0 16px
+            }
+      } 

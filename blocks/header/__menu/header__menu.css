@@ -1,0 +1,13 @@
+.header__menu {
+    margin: 37px 0 0 366px;
+    display: flex;
+    width: 286px;
+    justify-content: space-between;
+}
+
+@media (max-width: 1880px) {
+    .header__menu {
+        margin: 22px 0 0 30px;
+        width: 168px;
+    }
+  }

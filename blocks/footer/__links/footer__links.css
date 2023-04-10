@@ -1,0 +1,19 @@
+.footer__links {
+    display: flex;
+    border-bottom: 1px solid #E5E5E5;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+@media (max-width: 1880px) {
+    .footer__links {
+        display: grid;
+        width: 375px;
+        grid-template-columns: repeat(2, 187.5px);
+        grid-template-rows: 130px 196px 139px;
+        grid-template-areas:
+        "logo logo"
+        "help lk"
+        "catalog catalog";
+    }
+  } 

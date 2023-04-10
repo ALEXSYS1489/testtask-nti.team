@@ -1,0 +1,18 @@
+.news__date {
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    margin: 64px 0 0 390px;
+    width: 50px;
+    height: 97px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1880px) {
+    .news__date {
+        margin: 53px 0 0 305px;
+        width: 39px;
+        height: 76px;
+    }
+  } 

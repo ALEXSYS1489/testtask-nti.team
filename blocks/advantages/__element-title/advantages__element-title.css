@@ -1,0 +1,19 @@
+.advantages__element-title {
+    font-family: 'Euclid Circular A', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 25px 0 0 30px;
+    width: 272px;
+}
+
+@media (max-width: 1880px) {
+    .advantages__element-title {
+        width: 305px;
+        font-size: 18px;
+        line-height: 23px;
+        margin: 15px 0 0 15px;
+    }
+  }

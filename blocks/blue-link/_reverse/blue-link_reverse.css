@@ -1,0 +1,11 @@
+.blue-link_reverse {
+    flex-direction: row-reverse;
+    margin: 8px 0 0;
+}
+
+@media (max-width: 1880px) {
+    .blue-link_reverse {
+        flex-direction: row;
+        margin: 0;
+    }
+  } 

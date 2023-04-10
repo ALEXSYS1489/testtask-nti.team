@@ -1,0 +1,19 @@
+.blue-link__button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color: #33A9FF;
+    background-image: url(../../../images/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1880px) {
+    .blue-link__button {
+        height: 45px;
+        width: 45px;
+    }
+  }

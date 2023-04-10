@@ -1,0 +1,16 @@
+.advantages {
+    position: relative;
+    background-color: #F2F2F2;
+    padding: 0 0 46px;
+    max-width: 1920px;
+    margin: 180px auto 0;
+    overflow: hidden;
+}
+
+@media (max-width: 1880px) {
+    .advantages {
+        padding: 0 0 120px;
+        max-width: 375px;
+        margin: 120px auto 0;
+        }
+  } 

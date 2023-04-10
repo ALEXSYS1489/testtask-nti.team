@@ -1,0 +1,16 @@
+.first__text {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    color: #292D32;
+    margin: 321px 0 0 40px;
+}
+
+@media (max-width: 1880px) {
+    .first__text {
+        font-size: 20px;
+        margin: 59px 0 0 15px;
+        }
+  }

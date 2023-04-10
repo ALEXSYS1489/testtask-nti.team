@@ -1,0 +1,11 @@
+.news__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 1880px) {
+    .news__image:first-of-type {
+        width: 323px;
+    }
+  } 

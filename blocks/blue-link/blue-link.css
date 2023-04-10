@@ -1,0 +1,11 @@
+.blue-link {
+    height: 55px;
+    margin: 0;
+    display: flex;
+}
+
+@media (max-width: 1880px) {
+    .blue-link {
+        height: 45px;
+    }
+  }

@@ -1,0 +1,13 @@
+.first__point {
+    background-color: #D0D0D0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1880px) {
+    .first__point {
+        width: 3px;
+        height: 3px;
+    }
+  }

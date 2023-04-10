@@ -1,0 +1,17 @@
+.contacts__title {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #292D32;
+    margin: 100px 0 0 100px;
+}
+
+@media (max-width: 1880px) {
+    .contacts__title {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 101px 0 0 30px;
+    }
+  } 

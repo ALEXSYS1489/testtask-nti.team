@@ -1,0 +1,17 @@
+.news__date-month {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #292D32;
+    }
+
+    @media (max-width: 1880px) {
+        .news__date-month {
+            font-size: 15px;
+            line-height: 11px;
+            margin: 10px 0 0;
+            }
+      } 

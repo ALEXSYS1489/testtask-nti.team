@@ -1,0 +1,13 @@
+.news__elements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+}
+
+@media (max-width: 1880px) {
+    .news__elements {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+        margin: 40px 0 0
+    }
+  } 

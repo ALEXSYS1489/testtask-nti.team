@@ -1,0 +1,9 @@
+.header__shadow {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(63, 63, 63, 0.5);
+    z-index: 3;
+    top: 90px;
+    display: none;
+}

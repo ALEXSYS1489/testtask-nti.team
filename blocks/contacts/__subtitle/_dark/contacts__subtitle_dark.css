@@ -1,0 +1,11 @@
+.contacts__subtitle_dark {
+    margin: 18px 0 13px;
+    color: #FFF;
+}
+
+@media (max-width: 1880px) {
+    .contacts__subtitle_dark {
+        margin: 15px 0 10px;
+        width: auto;
+    }
+  } 

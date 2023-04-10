@@ -1,0 +1,9 @@
+.header__menu-button-accounting {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #48A4EB;;
+    position: absolute;
+    top: -1px;
+    right: 0;
+}

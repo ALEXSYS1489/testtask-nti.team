@@ -1,0 +1,19 @@
+.contacts__info {
+    background-color: #F9F9F9;
+    border-radius: 20px 0px 0px 20px;
+    width: 700px;
+    height: 842px;
+    position: relative;
+    margin: -346px 0 0;
+    z-index: 2;
+}
+
+@media (max-width: 1880px) {
+    .contacts__info {
+        border-radius: 0;
+        width: 375px;
+        padding: 0 0 60px;
+        margin: 0;
+        height: auto;
+    }
+  } 
