@@ -8,6 +8,9 @@ const body = document.querySelector(".body");
 
 const form = document.querySelector(".contacts__form");
 
+const points = document.getElementsByClassName("first__point");
+let slideIndex = 1;
+
 function openPopup() { 
   popupBlock.classList.add("popup_is-opened"); 
 }; 
@@ -44,39 +47,14 @@ form.addEventListener('submit', function (evt) {
   console.log(`Комент ${evt.target.elements.coment.validity.valid}`);
 }); 
 
-
-
-
-const points = document.getElementsByClassName("first__point");
-
-
-
-/* Устанавливаем стартовый индекс слайда по умолчанию: */
-let slideIndex = 1;
-/* Вызываем функцию, которая реализована ниже: */
-showSlides(slideIndex);
-
-/* Увеличиваем индекс на 1 — показываем следующий слайд: */
 function nextSlide() {
     showSlides(slideIndex += 1);
 }
 
-/* Уменьшаем индекс на 1 — показываем предыдущий слайд: */
-function previousSlide() {
-    showSlides(slideIndex -= 1);
-}
-
-/* Устанавливаем текущий слайд: */
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-/* Функция перелистывания: */
 function showSlides(n) {
-    /* Обращаемся к элементам с названием класса "item", то есть к картинкам: */
+
     let slides = document.getElementsByClassName("first__container");
 
-    /* Проверяем количество слайдов: */
     if (n > slides.length) {
       slideIndex = 1
     }
@@ -84,7 +62,6 @@ function showSlides(n) {
         slideIndex = slides.length
     }
 
-    /* Проходим по каждому слайду в цикле for: */
     for (let slide of slides) {
         slide.style.display = "none";
     }
@@ -102,3 +79,5 @@ function showSlides(n) {
     points[slideIndex - 2].classList.remove("first__point_active")
   }
 }
+
+showSlides(slideIndex);
